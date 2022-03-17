@@ -14,6 +14,9 @@
 }.font_c_blue{
     color: #00439C;
 }
+.font_c_wh{
+    color: white;
+}
 .header_top{
     text-align: right;
 }
@@ -25,11 +28,33 @@ section{
 }
 
 
+
 header .header_top img{
     width: 5%;
     text-align: right;
     color: white;
 }
+
+
+
+.jumbotron,
+.jumbotron-fluid{
+     padding-top: 300px;
+     padding-bottom: 100px ;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    position: relative;
+
+}
+.image_title img{
+    width: 40%;
+    position: absolute;
+    top:35%;
+    left: 0;
+}
+
+
+
 
 .img_cont{
     border-radius: 10px;
