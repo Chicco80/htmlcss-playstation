@@ -20,4 +20,10 @@
 header .header_top img{
     width: 5%;
     text-align: right;
+    color: white;
+}
+
+.img_cont{
+    border-radius: 10px;
+    overflow: hidden;
 }
