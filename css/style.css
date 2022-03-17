@@ -11,9 +11,17 @@
 }
 .bg_black{
     background-color: #000000;
+}.font_c_blue{
+    color: #00439C;
 }
 .header_top{
     text-align: right;
+}
+h2{
+    font-size: 50px;
+}
+section{
+    padding-top: 30px;
 }
 
 
@@ -26,4 +34,18 @@ header .header_top img{
 .img_cont{
     border-radius: 10px;
     overflow: hidden;
+}
+
+
+
+
+
+
+/* mediaquery */
+/* small */
+@media screen and (max-width:576px) {
+    .card-body .card-text{
+        display: none;
+    }
+    
 }
