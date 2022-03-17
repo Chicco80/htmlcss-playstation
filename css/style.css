@@ -1,0 +1,23 @@
+.debug{
+    border: 1px solid black;
+
+}
+
+.bg_blue{
+    background-color: #00439C;
+}
+.bg_gray{
+    background-color: #1F1F1F;
+}
+.bg_black{
+    background-color: #000000;
+}
+.header_top{
+    text-align: right;
+}
+
+
+header .header_top img{
+    width: 5%;
+    text-align: right;
+}
