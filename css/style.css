@@ -37,31 +37,22 @@ h2{
 
 header .sony{
     height: 50px;
-    
-    
-    
 }
 .sony img{
    width: 5%;
   float: right; 
-   
 }
 
 
 .jumbotron,
 .jumbotron-fluid{
     margin-top: 90px;
-     
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    
-
 }
 .image_title img{
     max-width:400px;
     padding-top: 50px;
-    
-    
 }/* card-play5 */
 #playstation5 .card{
     width: calc(100% / 5);
@@ -82,14 +73,32 @@ header .sony{
 .hero .take_cont img {
     max-width: 200px;
 }
-
-
 #games_card,
 .card-img-top,
 .card-img,
 .card {
     border:none;
     border-radius: 20px;
+}
+/* play-plus */
+.hero_2{
+    background-color:#BEBCBB ;
+    background-image:url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: cover;
+    
+} 
+.hero_2 .plus_cont img{
+    max-width: 400px;
+}
+
+/* play-now */
+.hero_3{
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-size: cover;
+
+}
+.hero_3 .play_cont img{
+    max-width: 400px;
 }
 
 
