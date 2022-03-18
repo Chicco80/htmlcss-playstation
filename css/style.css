@@ -11,7 +11,15 @@
 }
 .bg_black{
     background-color: #000000;
-}.font_c_blue{
+}
+.bg_orange{
+    background-color: orangered;
+    color: white;
+}
+.bg_wh{
+    background-color: white;
+}
+.font_c_blue{
     color: #00439C;
 }
 .font_c_wh{
@@ -23,42 +31,65 @@
 h2{
     font-size: 50px;
 }
-section{
+/* section{
     padding-top: 30px;
+} */
+
+header .sony{
+    height: 50px;
+    
+    
+    
 }
-
-
-
-header .header_top img{
-    width: 5%;
-    text-align: right;
-    color: white;
+.sony img{
+   width: 5%;
+  float: right; 
+   
 }
-
 
 
 .jumbotron,
 .jumbotron-fluid{
-     padding-top: 300px;
-     padding-bottom: 100px ;
+    margin-top: 90px;
+     
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    position: relative;
+    
 
 }
 .image_title img{
-    width: 40%;
-    position: absolute;
-    top:35%;
-    left: 0;
+    max-width:400px;
+    padding-top: 50px;
+    
+    
+}/* card-play5 */
+#playstation5 .card{
+    width: calc(100% / 5);
+    border: none;
 }
-
-
-
 
 .img_cont{
     border-radius: 10px;
     overflow: hidden;
+}
+/* taketwo */
+.hero{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 550px;
+    background-size: cover;
+    color:white
+}
+.hero .take_cont img {
+    max-width: 200px;
+}
+
+
+#games_card,
+.card-img-top,
+.card-img,
+.card {
+    border:none;
+    border-radius: 20px;
 }
 
 
@@ -69,8 +100,24 @@ header .header_top img{
 /* mediaquery */
 /* small */
 @media screen and (max-width:576px) {
-    .card-body .card-text{
+    #playstation5 .card-body .card-text{
         display: none;
     }
+    #playstation5 .card{
+        width: calc(100% / 3);
+
+    }
+    .jumbotron,
+    .jumbotron-fluid{
+        width: 100%;
+        
+        background-position: center;
+    }
     
+}
+
+@media screen and (max-width:768px){
+    .card .card-text{
+        font-size: 12px;
+    }
 }
