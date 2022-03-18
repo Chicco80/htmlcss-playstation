@@ -100,6 +100,12 @@ header .sony{
 .hero_3 .play_cont img{
     max-width: 400px;
 }
+/* footer */
+footer .footer_top img{
+    width: 70px;
+    
+}
+
 
 
 
@@ -119,7 +125,6 @@ header .sony{
     .jumbotron,
     .jumbotron-fluid{
         width: 100%;
-        
         background-position: center;
     }
     
