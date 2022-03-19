@@ -2,6 +2,9 @@
     border: 1px solid black;
 
 }
+.bg_light_g{
+    background-color: #D9DADC;
+}
 
 .bg_blue{
     background-color: #00439C;
@@ -25,6 +28,9 @@
 .font_c_wh{
     color: white;
 }
+.font_c_black{
+    color: #000000;
+}
 .header_top{
     text-align: right;
 }
@@ -42,18 +48,26 @@ header .sony{
    width: 5%;
   float: right; 
 }
+/* nav */
+ i .fa-solid, .fa-magnifying-glass{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: #000000;
+}
 
 
 .jumbotron,
 .jumbotron-fluid{
-    margin-top: 90px;
+    margin-top: 120px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
 }
 .image_title img{
     max-width:400px;
-    padding-top: 50px;
-}/* card-play5 */
+    /* padding-top: 50px; */
+}
+/* card-play5 */
 #playstation5 .card{
     width: calc(100% / 5);
     border: none;
@@ -67,6 +81,7 @@ header .sony{
 .hero{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     height: 550px;
+    background-position: center;
     background-size: cover;
     color:white
 }
@@ -82,10 +97,8 @@ header .sony{
 }
 /* play-plus */
 .hero_2{
-    background-color:#BEBCBB ;
-    background-image:url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-size: cover;
-    
+    background-color:#BEBCBB;
+
 } 
 .hero_2 .plus_cont img{
     max-width: 400px;
@@ -93,17 +106,29 @@ header .sony{
 
 /* play-now */
 .hero_3{
-    background-image: url(../img/ps-now-april-featured-image-block.png);
-    background-size: cover;
+    background-color:#161C3B ;
 
 }
 .hero_3 .play_cont img{
-    max-width: 400px;
+    max-width: 300px;
 }
 /* footer */
 footer .footer_top img{
     width: 70px;
     
+}
+footer ul li{
+    list-style-type: none;
+    color:white
+}
+.sony_gold img{
+    width: 100px;
+}
+.sie p{
+    width: 50%;
+}
+.country{
+    font-size: 15px;
 }
 
 
@@ -127,7 +152,27 @@ footer .footer_top img{
         width: 100%;
         background-position: center;
     }
-    
+    .image_title img{
+         max-width:200px; 
+        
+    }
+    .hero_2{
+        background-color:#BEBCBB ;
+      
+        
+    } 
+    .big_img img{
+        display:none
+    }
+   
+   
+    .plus-text h2{
+        display: none;
+    }
+
+    .sie p{
+        width: 100%;
+
 }
 
 @media screen and (max-width:768px){
