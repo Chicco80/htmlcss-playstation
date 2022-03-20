@@ -37,9 +37,7 @@
 h2{
     font-size: 50px;
 }
-/* section{
-    padding-top: 30px;
-} */
+
 
 header .sony{
     height: 50px;
@@ -65,8 +63,12 @@ header .sony{
 }
 .image_title img{
     max-width:400px;
-    /* padding-top: 50px; */
+    
 }
+.jumbo_text{
+    width: 50%;
+}
+/* jumbo-card */
 .img_cont  img{
     filter: blur(5px);
     transition: all ease-in-out 0.3s;
@@ -104,19 +106,22 @@ header .sony{
 /* taketwo */
 .hero{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height: 550px;
+    /* height: 550px; */
     background-position: center;
     background-size: cover;
     color:white
 }
 .hero .take_cont img {
-    max-width: 200px;
+    max-width: 300px;
 }
+.take_text{
+    width: 50%;
+}
+
+/* card games */
 .games_img{
     position: relative;
 }
-    
-
 .box-overlay{
         position: absolute;
         top: 0;
@@ -173,7 +178,9 @@ footer .footer_top img{
 }
 footer ul li{
     list-style-type: none;
-    color:white
+    color:white;
+    text-align: center;
+    
 }
 .sony_gold img{
     width: 100px;
@@ -210,6 +217,13 @@ footer ul li{
          max-width:200px; 
         
     }
+    .jumbo_text{
+        width: 100%;
+    }
+    /* taketwo */
+    .take_text{
+        width: 100%;
+    }
     .hero_2{
         background-color:#BEBCBB ;
       
@@ -229,8 +243,14 @@ footer ul li{
 
 }
 
+/* medium */
+@media screen and (max-width:768px){
+ 
+    
+}
 
-@media  screen and (max-width:992px) {
+/* large */
+@media  screen and (max-width:992px){
     #playstation5 .card-body p{
         font-size: 16px;
     
