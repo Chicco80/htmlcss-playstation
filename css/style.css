@@ -93,7 +93,7 @@ header .sony{
     border-radius: 20px;
  }
 .scale:hover{
-    /* border: 2px solid  #00439C; */
+   
     transform: scale(1.3);
     
 
@@ -106,7 +106,6 @@ header .sony{
 /* taketwo */
 .hero{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    /* height: 550px; */
     background-position: center;
     background-size: cover;
     color:white
@@ -250,7 +249,9 @@ footer ul li{
     }
 }
 
-
+@media screen and (max-width:768px){
+    
+}
 
 
 /* large */
