@@ -137,6 +137,7 @@ header .sony{
 }
 .box-overlay:hover{
     opacity: 1;
+    
 }
 .play i{
     position: absolute;
@@ -179,7 +180,7 @@ footer .footer_top img{
 footer ul li{
     list-style-type: none;
     color:white;
-    text-align: center;
+    
     
 }
 .sony_gold img{
@@ -245,7 +246,9 @@ footer ul li{
 
 /* medium */
 @media screen and (max-width:768px){
- 
+ {
+     width: 100%;
+ }
     
 }
 
