@@ -233,6 +233,7 @@ footer ul li{
     .big_img img{
         display:none
     }
+    
    
    
     .plus-text h2{
@@ -246,7 +247,7 @@ footer ul li{
 
 /* medium */
 @media screen and (max-width:768px){
- {
+ .col-md-6{
      width: 100%;
  }
     
